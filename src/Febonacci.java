@@ -1,3 +1,25 @@
+
+/*
+
+    Febonacci Series Defination In A Very Easy Way -
+
+    Checking Febonacci Series In Java Using Recursion -
+    Febonacci Series : Here This Series Work Like "Linked-List" Not Completely But In A Little Way. Like Example
+    Here We Have [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ] Here You Can It Is Adding Value With It's Previous Value.
+    Like 0 + 1 = 1
+    1 + 1 = 2
+    1 + 2 = 3
+    2 + 3 = 5
+    3 + 5 = 8
+    5 + 8 = 13
+    Like You Can See The Previous Value Adding With Its Next Value And Giving Result Which Is Our "FEBONACCI SERIES NUMBER".
+
+    So It's A Very Simple Way To Learn About Febonacci Series.
+
+ */
+
+
+
 import java.util.Scanner;                                                               // This Is Extranal "SYSTEM" Name Library That We Are Using In This Program
 
 public class Febonacci {                                                                // This Is Main Class - Remember Class Name And File Name Should Be Same.
@@ -22,7 +44,7 @@ public class Febonacci {                                                        
         }
         else
         {
-            return (Febonacci(Number - 1) + Febonacci(Number - 2));     // Main Logic For Checking "FEBONACCI SERIES"
+            return (Febonacci(Number - 1) + Febonacci(Number - 2));                 // Main Logic For Checking "FEBONACCI SERIES"
         }
     }
 }
